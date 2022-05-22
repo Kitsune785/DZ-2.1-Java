@@ -1,11 +1,10 @@
 public class main {
     public static void main(String[] args) {
 
-        int ticketprice = 100000;
-        int bonusmiles = 20;
-        int totalbonus = ticketprice / bonusmiles;
+        int ticketPrice = 100000;
+        int bonusMiles = 20;
+        int totalBonus = ticketPrice / bonusMiles;
 
-        System.out.println("За приобритение билета стоимостью " + ticketprice + " руб., Вам будет начислено " + totalbonus + " бонусных миль.");
-
+        System.out.println("За приобритение билета стоимостью " + ticketPrice + " руб., Вам будет начислено " + totalBonus + " бонусных миль.");
     }
 }
